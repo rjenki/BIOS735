@@ -8,4 +8,3 @@ seaborn
 jupyterlab
 
 nbconvert
-pandoc
