@@ -1,0 +1,2 @@
+# Link to public data (File size: 168.6 MB)
+https://catalog.ourworldindata.org/garden/covid/latest/compact/compact.csv
