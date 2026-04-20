@@ -1,8 +1,0 @@
-report.Rmd
-
-# Large/local files
-data/compact.csv
-report.Rmd
-.DS_Store
-__pycache__/
-*.pyc
