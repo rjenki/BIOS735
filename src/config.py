@@ -1,0 +1,21 @@
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+DATA_DIR = PROJECT_ROOT / 'data'
+OUTPUT_DIR = PROJECT_ROOT / 'outputs'
+FIGURES_DIR = OUTPUT_DIR / 'figures'
+TABLES_DIR = OUTPUT_DIR / 'tables'
+
+DATA_PATH = DATA_DIR / 'compact.csv'
+COUNTRIES = ['United States', 'Brazil', 'Japan', 'Germany']
+WAVE_THRESHOLD_PER_100K = 3.0
+MIN_WAVE_DAYS = 7
+TEST_DAYS = 30
+ACTIVE_THRESHOLD = 3.0
+MAX_REPORTING_GAP_DAYS = 30
+ARIMA_ORDER = (2, 1, 2)
+SENSITIVITY_THRESHOLDS = [3.0, 5.0, 10.0]
+RF_RANDOM_STATE = 42
+RF_N_ESTIMATORS = 300
+RF_MAX_DEPTH = 10
+RF_MIN_SAMPLES_LEAF = 2
